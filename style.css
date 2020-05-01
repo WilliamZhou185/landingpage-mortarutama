@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+body			{ margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif;}
+
+body			{ background:#dadada;}
+
+.clr			{ clear:both;}
+.wrapper		{ 
+				   background:#fff url(images/bg_all.gif) repeat-y left; 
+				   padding:0px 0px; 
+				   margin:0px auto; 
+				   border-bottom: 10px solid #005bac; 
+				   width:900px;
+				  }
+
+.header			{ background:url(images/header_top.jpg) no-repeat; padding-top:120px;}
+
+.kokiri			{ width:230px; float: left; height:100%; min-height:1000px;  }
+.kokan			{ margin-left:250px;  }
+.logo_place		{ height: 180px; background:#fff url(images/logo_small.gif) no-repeat center; }
+.logo_place	a	{ display:block; height:180px;}
+.img_side		{ margin:140px 0 20px 0px;}
+.img_utm		{ margin: 40px 0;}
+.adress			{ font-size:13px; padding:20px 0 0 20px; font-family:Arial, Helvetica, sans-serif; line-height:20px; color:#005bac}
+.adress a		{ text-decoration:underline; color:#005bac; }
+.adress a:hover	{ text-decoration:none; color:#999;}
+.adress	h2		{ font-size:16px; font-family:"Myriad Pro", Verdana}
+.adress strong	{ font-size:14px;}
+.isi_wrap		{ margin:0px 0 40px 0; padding-top: 36px; }
+
+.unggul			{ margin:0 50px 40px 60px;}
+.unggul	ol		{ margin-left:-20px;}
+.unggul	h1		{ font-family: "Myriad Pro", Verdana; font-size: 28px;  color:#1c71b9;}
+.unggul li		{ margin-bottom:4px; font-size:15px; color: #000;}
+
+.myform				{ background:#fff; border:1px solid #999; padding:20px 50px 20px 30px; font-size:12px; color:#666; margin:0px 30px;}
+.myform	textarea	{ width:100%; height:80px; border:none; background:#d2ecf8; padding:10px; margin-bottom:8px;}
+.myform input		{ width: 100%; height: 16px; line-height:16px; border: none; background:#d2ecf8; padding:10px; margin-bottom:8px;}
+.myform button		{ border: none; background:#5784ac; color: #fff; font-style:bold; text-align:center; padding:8px 20px; font-size:16px; }
+.myform button:hover	{ background:#afc0cf; color:#5784ac}
+
+.myform, .myform textarea,  .myform input, .myform button	
+ {
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.title_form		{ background:url(images/form_title.gif) no-repeat 40px top; padding-top:60px;}
+.shd			{ background:url(images/shadow_bottom.gif) no-repeat center top; height:16px;}
+
+/* button enquiry */
+
+.but_query			{ position:absolute; width: 32px; height:166px; margin: 20px 0 0 920px;}
+.but_query	 {
+  -moz-box-shadow:    0px 0px 5px 2px #ccc;
+  -webkit-box-shadow: 0px 0px 5px 2px #ccc;
+   box-shadow:         0px 0px 5px 2px #ccc;
+   -moz-border-radius: 6px;
+   -webkit-border-radius: 6px;
+    border-radius: 6px; /* future proofing */
+   -khtml-border-radius: 6px; /* for old Konqueror browsers */
+}
+
+.but_query a		{ display:block; height:166px; background:url(images/but_enquiry.png) no-repeat left;}
+.but_query a:hover	{ background:url(images/but_enquiry.png) no-repeat right;}
+
+.btt			{ text-align:center; font-size:11px; color: #666; padding:20px 0; }
+.btt a			{ color:#666; text-decoration:none;}
+.btt a:hover	{ color:#06F;  text-decoration:underline;}
+
+.copyr				{ font-size:12px; color:#1c71b9;  border-top: 1px solid #1c71b9; padding-top:20px; margin: 30px 30px 30px 30px; padding-bottom:30px; } 
