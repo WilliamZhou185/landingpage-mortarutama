@@ -1,0 +1,31 @@
+// ADDRESS
+
+.address {
+
+    color: $accentcolor;
+    font-style: normal;
+    padding: $sp1;
+}
+
+.address-detail {
+
+    p, ul {
+        margin: 0;
+        padding: 0;
+    }
+    ul {
+        list-style: none;
+    }
+    h4 {
+        font-size: 0.9rem;
+        margin: 0 0 0.5rem 0;
+    }
+    p, li {
+        font-size: 0.82rem;
+    }
+    margin-bottom: 0.5rem;
+
+    &::last-child {
+        margin-bottom: 0;
+    }
+}

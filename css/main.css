@@ -1,0 +1,104 @@
+/* Variables */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  /* needed for container min-height */
+}
+
+html {
+  font-family: "Myriad Pro", Arial, sans-serif;
+}
+
+body {
+  background-color: #dadada;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  min-height: 200px;
+  margin: 0 auto;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 10px solid #005bac;
+}
+
+.aside {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+  -ms-flex-preferred-size: 230px;
+      flex-basis: 230px;
+}
+
+.content {
+  width: 100%;
+  height: auto !important;
+  /* real browsers */
+  height: 100%;
+  /* IE6: treaded as min-height*/
+  min-height: 100%;
+  /* real browsers */
+  margin-left: 10px;
+  padding-top: 20px;
+  -webkit-box-shadow: inset 8px 0px 40px -30px #005bac;
+  box-shadow: inset 8px 0px 40px -30px #005bac;
+}
+
+.side-title {
+  font-size: 1rem;
+  color: #005bac;
+}
+
+.address {
+  color: #005bac;
+  font-style: normal;
+  padding: 20px;
+}
+
+.address-detail {
+  margin-bottom: 0.5rem;
+}
+
+.address-detail p, .address-detail ul {
+  margin: 0;
+  padding: 0;
+}
+
+.address-detail ul {
+  list-style: none;
+}
+
+.address-detail h4 {
+  font-size: 0.9rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.address-detail p, .address-detail li {
+  font-size: 0.82rem;
+}
+
+.address-detail::last-child {
+  margin-bottom: 0;
+}
+
+.identity-image {
+  margin-bottom: 48px;
+  padding-top: 20px;
+  text-align: right;
+}
+
+.support-image {
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */

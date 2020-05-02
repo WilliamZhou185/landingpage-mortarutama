@@ -1,0 +1,28 @@
+.container {
+
+    width: 100%;
+    max-width: 900px;
+    min-height: 200px;
+    margin: 0 auto;
+    background: white;
+    display: flex;
+    border-bottom: 10px solid  $accentcolor;
+}
+
+.aside {
+    flex-grow: 0;
+    flex-basis: 0;
+    flex-basis: 230px;
+}
+
+.content {
+    width: 100%;
+    height:auto !important; /* real browsers */
+	height:100%; /* IE6: treaded as min-height*/
+	min-height:100%; /* real browsers */
+    margin-left: $sp05;
+    padding-top: $sp1;
+    -moz-box-shadow:    inset 8px 0px 40px -30px $accentcolor;
+    -webkit-box-shadow: inset 8px 0px 40px -30px $accentcolor;
+    box-shadow:         inset 8px 0px 40px -30px $accentcolor;
+}
